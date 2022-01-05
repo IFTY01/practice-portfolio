@@ -4,6 +4,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 h1{
     font-size: 50px;
@@ -29,4 +30,9 @@ h1{
 .top-container{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.right-image{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
